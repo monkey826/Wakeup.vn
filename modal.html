@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<title>Khóa học WAKE UP - MR WHY PHẠM NGỌC ANH </title>
+	<link rel="icon" type="image/png" href="img/logo-wakeup-32.png">
+	<style>
+		#myModal{
+			margin-top: 100px;
+		}
+		.list-group-item{
+			margin-bottom: 10px;
+		}
+		body{
+			background: url("img/hoitruong.jpg");
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="modal" id ="myModal" role ="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="text-danger"> <strong>Vui lòng chọn khu vực của bạn</strong> </h4>
+				</div>
+				<div class="modal-body">
+					<a href="index.html" class="list-group-item active">TP Hà Nội </a>
+					<a href="index.html" class="list-group-item">TP Hồ Chí Minh</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$("#myModal").modal("show");
+		});
+	</script>
+</body>
+</html>
+
+  
+
+
+ 
